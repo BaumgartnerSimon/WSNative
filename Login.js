@@ -11,7 +11,7 @@ export default class Login extends React.Component{
     }
 
     checkCredentials() {
-        return this.state.username === "test" && this.state.password === "test";
+        return this.state.username === "admin" && this.state.password === "admin";
     }
 
     render() {
